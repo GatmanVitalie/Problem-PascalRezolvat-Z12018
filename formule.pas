@@ -18,7 +18,8 @@ begin
     if V = true then // dacă V am aflat deza că este fals nu are sens să verificăm a
     begin
       
-    
+      {eu iau în paranteze ca să convertes explesiile în boolean cum ar fi '(a >= '0') and (a <= '9')' dacă
+      nu le-as fi luat ]n paranteze codul nu ar fi funcționat deoarece funția 'and' funcționează numai pentru boolean.}
       if (a >= '0') and (a <= '9') then //verifică dacă a este nr
       begin
         if pr2 = true then
